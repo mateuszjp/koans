@@ -50,6 +50,9 @@ def score(dice)
 #      score += 100*prev[1] if prev.first == 1 && prev[1] < 3
 #      score += 50*prev[1] if prev.first == 5 && prev[1] < 3
 
+  #c = [0]*6                          - other
+  #dice.each{|x| c[x-1] += 1}         - way
+  
   scores = [] 
   prev = 0;
   count = 1
